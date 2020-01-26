@@ -31,18 +31,18 @@ Download Anaconda
 [lin64]: https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
 [lin32]: https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86.sh
 
-**Install** [Anaconda](https://docs.anaconda.com/anaconda/install/) on your machine. Detailed instructions:
+**Install** [Anaconda](https://docs.anaconda.com/anaconda/install/) on your machine. 
 
 ## 1.2 Create and Activate the Environment
 
 Please go though this [doc](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) before you creating an environment.
-After that create a environment using following command
+After that create a new environment using following command:
 
 ```
 conda create --name deep-learning
 ```
 
-Then activate the environment using following command
+Then activate the environment using following command:
 
 ```
 activate deep-learning
@@ -56,7 +56,7 @@ conda install git
 
 **Now, you can create a local version of the project**
 
-1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
+1. Clone the repository, and navigate to the downloaded folder. This may take a few minutes to clone.
 ```
 git clone https://github.com/sureshsubr/bike-sharing-rides.git
 cd bike-sharing-rides
@@ -77,6 +77,6 @@ conda install --yes --file requirements.txt
 jupyter notebook
 ```
 
-Once jupyter notebook instance is open follow the remaining steps (2-5) in the ipython notebook called `Predicting_bike_sharing_data.ipynb`.
+Once jupyter notebook instance is open follow the remaining instructions for steps #2-#5 in the ipython notebook called `Predicting_bike_sharing_data.ipynb`.
 
 To exit the environment when you have completed your work session, simply close the terminal window.
