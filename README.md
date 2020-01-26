@@ -71,12 +71,11 @@ Or
 conda install --yes --file requirements.txt
 ```
 
-3. That's it!
-
+3. That's it! Open a terminal window and navigate to the project folder. Open the notebook and follow the instructions.
 ```
 jupyter notebook
 ```
 
-Once jupyter notebook instance is open follow the remaining instructions for steps #2-#5 in the ipython notebook called `Predicting_bike_sharing_data.ipynb`.
+Once jupyter notebook instance is open follow the remaining instructions for steps #2 - #5 in the ipython notebook called `Predicting_bike_sharing_data.ipynb`.
 
 To exit the environment when you have completed your work session, simply close the terminal window.
